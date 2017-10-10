@@ -20,6 +20,8 @@
 			<Item Name="COM Error Checker.vi" Type="VI" URL="../subVIs/COM Error Checker.vi"/>
 			<Item Name="KH7008 COM.vi" Type="VI" URL="../subVIs/KH7008 COM.vi"/>
 			<Item Name="KH7008 Set All.vi" Type="VI" URL="../subVIs/KH7008 Set All.vi"/>
+			<Item Name="I_Gain.vi" Type="VI" URL="../subVIs/I_Gain.vi"/>
+			<Item Name="V_Gain.vi" Type="VI" URL="../subVIs/V_Gain.vi"/>
 		</Item>
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="KH_control_array.ctl" Type="VI" URL="../typedefs/KH_control_array.ctl"/>
@@ -80,6 +82,7 @@
 				<Item Name="MGI RWA Unprocess Array Elements.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Unprocess Array Elements.vi"/>
 				<Item Name="MGI RWA Build Array Name.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Build Array Name.vi"/>
 				<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Hex Str to U8 Data.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
