@@ -24,14 +24,14 @@
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="KH_control_array.ctl" Type="VI" URL="../typedefs/KH_control_array.ctl"/>
 			<Item Name="KH_control.ctl" Type="VI" URL="../typedefs/KH_control.ctl"/>
-			<Item Name="Coupling-Enum.ctl" Type="VI" URL="../typedefs/Coupling-Enum.ctl"/>
-			<Item Name="Input Configuration-Enum.ctl" Type="VI" URL="../typedefs/Input Configuration-Enum.ctl"/>
-			<Item Name="Filter-Enum.ctl" Type="VI" URL="../typedefs/Filter-Enum.ctl"/>
+			<Item Name="Measure-Enum.ctl" Type="VI" URL="../typedefs/Measure-Enum.ctl"/>
 			<Item Name="SetAll-Cluster.ctl" Type="VI" URL="../typedefs/SetAll-Cluster.ctl"/>
 			<Item Name="Channel-Enum.ctl" Type="VI" URL="../typedefs/Channel-Enum.ctl"/>
-			<Item Name="Measure-Enum.ctl" Type="VI" URL="../typedefs/Measure-Enum.ctl"/>
 			<Item Name="Gain-Enum.ctl" Type="VI" URL="../typedefs/Gain-Enum.ctl"/>
+			<Item Name="Filter-Enum.ctl" Type="VI" URL="../typedefs/Filter-Enum.ctl"/>
 			<Item Name="Shunt-Enum.ctl" Type="VI" URL="../typedefs/Shunt-Enum.ctl"/>
+			<Item Name="Coupling-Enum.ctl" Type="VI" URL="../typedefs/Coupling-Enum.ctl"/>
+			<Item Name="Input Configuration-Enum.ctl" Type="VI" URL="../typedefs/Input Configuration-Enum.ctl"/>
 		</Item>
 		<Item Name="KH Control.vi" Type="VI" URL="../KH Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
