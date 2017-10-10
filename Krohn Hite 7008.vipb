@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-20 09:58:44" Modified_Date="2017-10-10 09:36:24" Creator="Patrick Irvin" Comments="" ID="7165d3a5b91f8dc8759a1fa7ded3b8ad">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-20 09:58:44" Modified_Date="2017-10-10 13:15:03" Creator="Patrick Irvin" Comments="" ID="2242d26db5e1ee5ffa79b82e09374599">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.3.0.10</Library_Version>
+    <Library_Version>1.3.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Krohn Hite</Library_Output_Folder>
@@ -54,7 +54,8 @@
 - save front panel defaults
 - fix FGV icons
 - all controls are now enums &amp; typedefs
-- add package dependencies</Release_Notes>
+- add package dependencies
+- change mode labels (ground, differential, single ended)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -255,7 +256,7 @@
         <Path>KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DC0BD0F4A407ACF2167413F5786DE6E</GUID>
+      <GUID>D023CB37230E60B2B521D1702385DB4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -318,7 +319,7 @@
         <Path>globals\KH_config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>822BA2F89893F724BF94E50FB174C625</GUID>
+      <GUID>9566125CE1CD0E5D6C21634ADBA36B00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -381,7 +382,7 @@
         <Path>subVIs\KH7008 Set All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EF7537D997E6C99CF6BB4B9BF6FAF8F</GUID>
+      <GUID>C8AF9B4512574998878C9E7F6D70F843</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -416,7 +417,7 @@
         <Path>typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBCD6443689B219AF407A0C3ACE44755</GUID>
+      <GUID>6410EE9080B6E9E427399E459FB9F2BA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -465,7 +466,7 @@
         <Path>typedefs\KH_control_array.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C83701375BBF1CB8635CC147B2F8AC6C</GUID>
+      <GUID>4F249E80AAEB32A20AE5F5CEB59EA3A6</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
