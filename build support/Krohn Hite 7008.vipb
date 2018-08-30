@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2018-08-28 16:16:35" Creator="Patrick Irvin" Comments="" ID="d710fca943316f7938e4fbbae93d1af2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2018-08-30 12:53:21" Creator="Patrick Irvin" Comments="" ID="5aec56dfd8270598da034f99bd5c6bc0">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.4.0.16</Library_Version>
+    <Library_Version>1.4.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Krohn Hite</Library_Output_Folder>
@@ -49,8 +49,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- updated KH Control has "set all" function
-- reorganize code into class</Release_Notes>
+      <Release_Notes>-  KH Control now has control to set all inputs to ground, differential, or user choice</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -256,7 +255,7 @@
         <Path>..\src\SMOs\KH7008\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>255475809180594BA88498894EDE3831</GUID>
+      <GUID>FA569192CA2595BF944D7C18E8AD3AF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -319,7 +318,7 @@
         <Path>..\src\SMOs\KH7008\globals\KH_config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E81A698501F56EEFF2C4A2D8F3C1E8E</GUID>
+      <GUID>53641A945EF3FB09B55DF2A888D44A80</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -410,7 +409,7 @@
         <Path>..\src\SMOs\KH7008\subVIs\V_Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DDE87C7BC2C012931643A06B4AB669D</GUID>
+      <GUID>D151B4CC9032AACB4B39DCB2F2D18512</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -445,7 +444,7 @@
         <Path>..\src\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80E3E5A5C7623A555DF1F642725AFEEE</GUID>
+      <GUID>D53CAD970201F9910BC49F4EE553FA60</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -606,7 +605,7 @@
         <Path>..\src\SMOs\KH7008\typedefs\Shunt-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68A6C8D657E959F2DC29DC19E280811D</GUID>
+      <GUID>DBC0E5A24F5C7D5720079061CB79EB53</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
