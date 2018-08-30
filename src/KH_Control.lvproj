@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Krohn Hite 7008.vipb" Type="Document" URL="../../build support/Krohn Hite 7008.vipb"/>
+			<Item Name="Krohn Hite 7008.vipc" Type="Document" URL="../../build support/Krohn Hite 7008.vipc"/>
+		</Item>
 		<Item Name="KH7008.lvclass" Type="LVClass" URL="../SMOs/KH7008/KH7008.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
