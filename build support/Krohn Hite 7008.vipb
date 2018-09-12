@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2018-08-30 14:28:50" Creator="Patrick Irvin" Comments="" ID="45af92557000f389cada4a03f0cd33f0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2018-09-12 11:43:47" Creator="Patrick Irvin" Comments="" ID="ff076d059eef0edf2fbad667b9855fdd">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.4.2.18</Library_Version>
+    <Library_Version>1.4.3.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Krohn Hite</Library_Output_Folder>
@@ -49,8 +49,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>-  KH Control now has control to set all inputs to ground, differential, or user choice
-- move \build support outside of KH7008.lvclass</Release_Notes>
+      <Release_Notes>- KH Control now has control to set all inputs to ground, differential, or user choice
+- move \build support outside of KH7008.lvclass
+- move VIs back into root folder (rather than SMO subfolder).
+
+--- users of v1.4.2.17 should upgrade ---</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -253,10 +256,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\KH Control.vi</Path>
+        <Path>..\src\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCD7261FE0448EE7BF78946751007DB7</GUID>
+      <GUID>5F19BDB9E3A54FA68423CF4DAC8D7A62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -288,7 +291,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\globals\FGV - KH Gain.vi</Path>
+        <Path>..\src\globals\FGV - KH Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -302,7 +305,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\globals\FGV - KH Settings.vi</Path>
+        <Path>..\src\globals\FGV - KH Settings.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -316,10 +319,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\globals\KH_config.vi</Path>
+        <Path>..\src\globals\KH_config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AB36BD5B5BEEE92818025BAF8B37B0B</GUID>
+      <GUID>F80048535CA38A359A7511CEA5DBB427</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -351,7 +354,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\subVIs\COM Error Checker.vi</Path>
+        <Path>..\src\subVIs\COM Error Checker.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -365,7 +368,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\subVIs\KH7008 COM.vi</Path>
+        <Path>..\src\subVIs\KH7008 COM.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -379,7 +382,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\subVIs\KH7008 Set All.vi</Path>
+        <Path>..\src\subVIs\KH7008 Set All.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -393,7 +396,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\subVIs\I_Gain.vi</Path>
+        <Path>..\src\subVIs\I_Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -407,10 +410,10 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\subVIs\V_Gain.vi</Path>
+        <Path>..\src\subVIs\V_Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>087841F24AB3E86486628F8AE4D115E3</GUID>
+      <GUID>2233EF3E78D2F9D19D168B21B6933414</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -445,7 +448,7 @@
         <Path>..\src\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43F08D09639A67BF2D9B0CA6266A0E73</GUID>
+      <GUID>AD64172636BC99EBD5C6675F2718715D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -477,7 +480,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Channel-Enum.ctl</Path>
+        <Path>..\src\typedefs\Channel-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -491,7 +494,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Coupling-Enum.ctl</Path>
+        <Path>..\src\typedefs\Coupling-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -505,7 +508,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Filter-Enum.ctl</Path>
+        <Path>..\src\typedefs\Filter-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -519,7 +522,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Gain-Enum.ctl</Path>
+        <Path>..\src\typedefs\Gain-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -533,7 +536,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Input Configuration-Enum.ctl</Path>
+        <Path>..\src\typedefs\Input Configuration-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -547,7 +550,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\KH_control.ctl</Path>
+        <Path>..\src\typedefs\KH_control.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -561,7 +564,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\KH_control_array.ctl</Path>
+        <Path>..\src\typedefs\KH_control_array.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -575,7 +578,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Measure-Enum.ctl</Path>
+        <Path>..\src\typedefs\Measure-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -589,7 +592,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\SetAll-Cluster.ctl</Path>
+        <Path>..\src\typedefs\SetAll-Cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -603,10 +606,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\KH7008\typedefs\Shunt-Enum.ctl</Path>
+        <Path>..\src\typedefs\Shunt-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BB016655794B05219F776F179527BA7</GUID>
+      <GUID>FBA23B74EE7814CB276770D1543EE596</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
