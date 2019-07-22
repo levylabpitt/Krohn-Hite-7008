@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2019-07-22 12:33:14" Creator="Patrick Irvin" Comments="" ID="76e26b63d2c9c0347f0d78f5a0eac902">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2019-07-22 18:16:08" Creator="Patrick Irvin" Comments="" ID="dd6271fbfc00e18d7c0c6929e22af3b3">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.4.4.20</Library_Version>
+    <Library_Version>1.4.5.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Krohn Hite</Library_Output_Folder>
@@ -49,10 +49,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.4.19]
-- KH Control.vi is now a JKI State Machine.
-- Put data onto class wire. Should make it more straightforward to call KH Control as a subVI (need to call Data Accessors)
-- Move subVIs into private scope</Release_Notes>
+      <Release_Notes>[1.4.5.20]
+- Add "read" accessor for channel settings</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -328,7 +326,7 @@
         <Path>..\src\Write Channel Setting.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B19D555805BF7125EA68D5A9CEE92E08</GUID>
+      <GUID>152C2229EB771459BF14CCEC67A29D6C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -391,7 +389,7 @@
         <Path>..\src\globals\KH_config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DCFA87C77A2EF20DF89D0E6B3DE8A3B</GUID>
+      <GUID>A6CE366EE339D961A90E9D88D92A80B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -482,7 +480,7 @@
         <Path>..\src\subVIs\V_Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF44CE674F5F585A52441207B7CE48EB</GUID>
+      <GUID>24A9278341E72D66032BBDEA894B31F7</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -517,7 +515,7 @@
         <Path>..\src\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7E64FFFC9E093C88D6861BED9FABA9A</GUID>
+      <GUID>6909475D40F00FB2409A5634BB833E40</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -678,7 +676,7 @@
         <Path>..\src\typedefs\Shunt-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BEF511CA04696A8E66906E85DC6ABD8</GUID>
+      <GUID>288E334A338B932DCFA63E63DDAC18C4</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
