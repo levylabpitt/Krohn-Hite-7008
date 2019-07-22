@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2018-09-12 11:43:47" Creator="Patrick Irvin" Comments="" ID="ff076d059eef0edf2fbad667b9855fdd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-04-20 09:58:44" Modified_Date="2019-07-22 12:08:44" Creator="Patrick Irvin" Comments="" ID="a38441a22b9a9df8dd9bb84be882b503">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.4.3.19</Library_Version>
+    <Library_Version>1.4.4.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Krohn Hite</Library_Output_Folder>
@@ -259,7 +259,7 @@
         <Path>..\src\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F19BDB9E3A54FA68423CF4DAC8D7A62</GUID>
+      <GUID>D7BC45AAABC8D732FBAACB651A2B1A55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -322,7 +322,7 @@
         <Path>..\src\globals\KH_config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F80048535CA38A359A7511CEA5DBB427</GUID>
+      <GUID>625FA6D3D95EAC2C8E739BE8F33C465B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +413,7 @@
         <Path>..\src\subVIs\V_Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2233EF3E78D2F9D19D168B21B6933414</GUID>
+      <GUID>A6B97C36D7EE2F00994C2209B611B5F5</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -448,7 +448,7 @@
         <Path>..\src\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD64172636BC99EBD5C6675F2718715D</GUID>
+      <GUID>37458A9A6ABB6A0F9EFDE0846D5CDFB8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -609,7 +609,7 @@
         <Path>..\src\typedefs\Shunt-Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBA23B74EE7814CB276770D1543EE596</GUID>
+      <GUID>96C123AB8761A97E551D6FD312018AD7</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
