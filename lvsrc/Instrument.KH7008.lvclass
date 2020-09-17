@@ -197,7 +197,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">276832256</Property>
 		</Item>
-		<Item Name="Shunt - 500 or 10M Control Disable.vi" Type="VI" URL="../Private/Shunt - 500 or 10M Control Disable.vi">
+		<Item Name="Shunt - 500 or 10M Control Disable.vi" Type="VI" URL="../API/Shunt - 500 or 10M Control Disable.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!41"9!!A-V-$!$-4".!!*45A!!&lt;!$R!!!!!!!!!!):37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=QZ4;(6O&gt;#V&amp;&lt;H6N,G.U&lt;!!\!"9!"A20='6O"T5Q)%^I&lt;8-).4!Q)%^I&lt;8-(.7MA4WBN=QAV-'MA4WBN=Q=R-%UA4WBN!!!!'%"Q!!A!!1!(!#-!!!FS:7:F=G6O9W5!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!'!!A$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!I!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1074004224</Property>
@@ -206,7 +206,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130962</Property>
 		</Item>
-		<Item Name="Shunt - Check 500 or 10M.vi" Type="VI" URL="../Private/Shunt - Check 500 or 10M.vi">
+		<Item Name="Shunt - Check 500 or 10M.vi" Type="VI" URL="../API/Shunt - Check 500 or 10M.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!&amp;A!#!T5Q-!-R-%U!!F.3!!!S1(!!$A6*&lt;H.U=A!!&amp;A#!!!!!!!%!"!!!!!%!!!!!!!!06EF413"3:7:O&gt;7UA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!!Y&amp;37ZT&gt;()!!"9!A!!!!!!"!!1!!!!"!!!!!!!!$F:*5U%A5G6G&lt;H6N)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!E!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
