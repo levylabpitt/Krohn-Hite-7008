@@ -207,15 +207,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 		</Item>
-		<Item Name="DeleteKH_config.vi" Type="VI" URL="../Private/DeleteKH_config.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!2#!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!V!#A!(4H6N:8*J9Q!71%!!!@````]!"1F(97FO=S"P&gt;81!FA$R!!!!!!!!!!):37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=R"$;'&amp;O&lt;G6M,56O&gt;7UO9X2M!'.!&amp;A!)#5.I97ZO:7QA-1F$;'&amp;O&lt;G6M)$)*1WBB&lt;GZF&lt;#!T#5.I97ZO:7QA.!F$;'&amp;O&lt;G6M)$5*1WBB&lt;GZF&lt;#!W#5.I97ZO:7QA.QF$;'&amp;O&lt;G6M)$A!"U.I97ZO:7Q!5Q$R!!!!!!!!!!):37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=QV(97FO,56O&gt;7UO9X2M!#.!&amp;A!%!D&amp;Y!T%Q?!1R-$"Y"4%Q-$"Y!!2(97FO!!"8!0%!!!!!!!!!!BF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T$U:J&lt;(2F=CV&amp;&lt;H6N,G.U&lt;!!F1"9!!A.02E9#4UY!!""#97ZE&gt;WFE&gt;'AA2GFM&gt;'6S!!"]!0%!!!!!!!!!!BF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T$F.I&gt;7ZU,56O&gt;7UO9X2M!%N!&amp;A!'"%^Q:7Y(.4!A4WBN=QAV-$!A4WBN=Q=V;S"0;'VT#$5Q;S"0;'VT"T%Q43"0;'U!!!Z4;(6O&gt;#"3:8.J=X2P=A!!4Q$R!!!!!!!!!!):37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=R&amp;$&lt;X6Q&lt;'FO:SV&amp;&lt;H6N,G.U&lt;!!&lt;1"9!!A*"1Q*%1Q!)1W^V='RJ&lt;G=!!))!]1!!!!!!!!!#'5FO=X2S&gt;7VF&lt;H1O3UAX-$!Y,GRW9WRB=X-=37ZQ&gt;81A1W^O:GFH&gt;8*B&gt;'FP&lt;CV&amp;&lt;H6N,G.U&lt;!"$1"9!"!:(=G^V&lt;G1+5U5L)#AN:WZE+1J423UA+#NH&lt;G1J$%2J:G:F=G6O&gt;'FB&lt;!!-37ZQ&gt;81A1W^O:GFH!!"&gt;!0(;B'FI!!!!!BF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T%F.F&gt;%&amp;M&lt;#V$&lt;(6T&gt;'6S,G.U&lt;!!I1&amp;!!"A!(!!A!#1!+!!M!$""$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G&gt;T!!"4!0%!!!!!!!!!!BF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T%&amp;.F&gt;%&amp;M&lt;#V"=H*B?3ZD&gt;'Q!)%"!!!(`````!!U01WBB&lt;GZF&lt;#"4:82U;7ZH!":!5!!$!!!!!1!##%6S=G^S)%FO!!!&gt;1"9!!A6X=GFU:12S:7&amp;E!!!)2H6O9X2J&lt;WY!!"*!1!!"`````Q!&amp;"5&gt;B;7ZT!&amp;1!]!!-!!-!"!!'!!Y!"!!%!!1!"!!0!"!!%1!/!Q!!?!!!$1A!!!!!!!!.#A!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!1I!!!%+!!!!!!%!%A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
-		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -237,6 +228,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">276832256</Property>
 		</Item>
+		<Item Name="Read Gain.vi" Type="VI" URL="../API/Read Gain.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!%E"!!!(`````!!5%2W&amp;J&lt;A!!-%"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=Q!+3UAX-$!Y)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!O1(!!(A!!'RF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T!!F,3$=Q-$AA;7Y!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
+		</Item>
 		<Item Name="Shunt - 500 or 10M Control Disable.vi" Type="VI" URL="../API/Shunt - 500 or 10M Control Disable.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!41"9!!A-V-$!$-4".!!*45A!!&lt;!$R!!!!!!!!!!):37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=QZ4;(6O&gt;#V&amp;&lt;H6N,G.U&lt;!!\!"9!"A20='6O"T5Q)%^I&lt;8-).4!Q)%^I&lt;8-(.7MA4WBN=QAV-'MA4WBN=Q=R-%UA4WBN!!!!'%"Q!!A!!1!(!#-!!!FS:7:F=G6O9W5!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!'!!A$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!I!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -254,15 +254,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074274832</Property>
-		</Item>
-		<Item Name="Read Gain.vi" Type="VI" URL="../API/Read Gain.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!%E"!!!(`````!!5%2W&amp;J&lt;A!!-%"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z,3$=Q-$AO&lt;(:D&lt;'&amp;T=Q!+3UAX-$!Y)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!O1(!!(A!!'RF*&lt;H.U=H6N:7ZU,EN).T!Q/#ZM&gt;G.M98.T!!F,3$=Q-$AA;7Y!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
 	</Item>
 	<Item Name="Overrides" Type="Folder">
