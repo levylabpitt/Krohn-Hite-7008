@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2021-10-19 08:06:54" Creator="Patrick Irvin" Comments="" ID="218afd3c7515a108468519b342e2c6f5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2021-10-19 12:17:18" Creator="Patrick Irvin" Comments="" ID="4921bd56d1c56f99dcb7cb3fbb2bde00">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.7.1.30</Library_Version>
+    <Library_Version>1.7.2.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -108,9 +108,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.7.1]
-- Get All Channels is private driver
-- Add API methods for R/W KH address - call these instead of Open.vi from the Instrument Framework</Release_Notes>
+      <Release_Notes>[1.7.2]
+- Remove R/W Address from private data and API (use parent hardware addres)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -344,7 +343,7 @@
         <Path>..\lvsrc\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E96E4E63E5772A8251354096293DDB9D</GUID>
+      <GUID>DBA52FD9BDC649B8E6A8AE3F3742C991</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -424,20 +423,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Address.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\API\Write Address.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read Address.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -463,7 +448,7 @@
         <Path>..\lvsrc\API\Read Gain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84D9A0EC6A8BF57A850CAA79F46198D3</GUID>
+      <GUID>80A1882FC57198236D06D59CF03F4A89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -512,7 +497,7 @@
         <Path>..\lvsrc\Overrides\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D69851CC87A419D12EDF8B03AB618F4</GUID>
+      <GUID>E62BB7C357BAB15C89B27D613BF9041A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -687,7 +672,7 @@
         <Path>..\lvsrc\Private\KH7008 COM Error Checker.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20AC563281878F1B0C2C57595BCCF9C5</GUID>
+      <GUID>9D9D2BBE84914894BEC8895E1639C6F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -722,7 +707,7 @@
         <Path>..\lvsrc\Tests\Test SR configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B09F0400DA080B50DE188B3FBC6EB55</GUID>
+      <GUID>EAB20A6013E7653340A5F75EC9BD9FCB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
