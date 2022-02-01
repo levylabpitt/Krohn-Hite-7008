@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2021-11-05 11:51:05" Creator="Patrick Irvin" Comments="" ID="c6ca37da57fd36af63b5deeae72cd813">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2022-02-01 10:39:39" Creator="Patrick Irvin" Comments="" ID="afa530a22c18515f684211267f898aec">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.7.3.33</Library_Version>
+    <Library_Version>1.7.4.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -104,12 +104,12 @@
     <VI_Package_Configuration_File>Krohn Hite 7008.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.</Description>
+      <Description>Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.</Description>
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.7.3]
-- Update to Instrument Framework v1.11.0</Release_Notes>
+      <Release_Notes>[1.7.4]
+- Update to Instrument Framework v1.11.1.15</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -343,7 +343,7 @@
         <Path>..\lvsrc\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>427EC79B584D8D749C2F7B8AB43E118D</GUID>
+      <GUID>83D61CAC1BF7438D53AD5AC6AF2FAE89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -462,7 +462,7 @@
         <Path>..\lvsrc\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C74843BF847CAF0A7914ECA58D05FDFC</GUID>
+      <GUID>AE50494EB4B074F0717BCCA2191D1A0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -511,7 +511,7 @@
         <Path>..\lvsrc\Overrides\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F189EF53BC1931C4050C6FFB25DF6BB1</GUID>
+      <GUID>DE3051643C2D65CFA01E26CA47ABE00E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -686,7 +686,7 @@
         <Path>..\lvsrc\Private\KH7008 COM Error Checker.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E464057560AF5B31D6A2273FB1B81367</GUID>
+      <GUID>32E637BF73DE2E8713D810EF389BD44F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -721,7 +721,7 @@
         <Path>..\lvsrc\Tests\Test SR configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>591D80345ECB52A54A7F093F9F610E77</GUID>
+      <GUID>E6966A89C7E3965AB456A817913767E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
