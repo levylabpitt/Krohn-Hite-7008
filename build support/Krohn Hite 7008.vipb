@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2022-05-23 22:07:22" Creator="Patrick Irvin" Comments="" ID="78b7725fdc217eb5c7a1247b8b29843f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2022-05-24 08:51:41" Creator="Patrick Irvin" Comments="" ID="4bd4aa15a9f39284d2db3d8b0ee726bb">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>1.7.7.2</Library_Version>
+    <Library_Version>1.7.7.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -268,7 +268,7 @@
         <Path>..\lvsrc\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4756E758A197D4D3AB217858D6B89834</GUID>
+      <GUID>FA4F026BA7FDE1655DECCE2FF539FCD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -387,7 +387,7 @@
         <Path>..\lvsrc\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7608CFF4A3C24FF7B65F2DA694359F74</GUID>
+      <GUID>2BF08F0DE6E1EF0F4E9D8DDDBC485C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -436,7 +436,7 @@
         <Path>..\lvsrc\Overrides\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2100734791195999D78259DE98DB157F</GUID>
+      <GUID>36CB206A5EB2F278CE647D40AB54BCF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +611,7 @@
         <Path>..\lvsrc\Private\KH7008 COM Error Checker.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0055E77ED55F6B7AB838CE3FE1B55A94</GUID>
+      <GUID>C8C3199ACB9DFDD911ACC91E91BA4DC4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +646,7 @@
         <Path>..\lvsrc\Tests\Test SR configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2C8200F436DAA04266A14DCC8BC06E3</GUID>
+      <GUID>E99AC531E4EBD19603C97A3189AAB3FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
