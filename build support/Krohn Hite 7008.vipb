@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2022-06-08 17:38:01" Creator="Patrick Irvin" Comments="" ID="ec8535acfffdd65a84a715021e1f7fbc">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2022-06-13 21:44:12" Creator="Patrick Irvin" Comments="" ID="e5c35972409c2787541f7ed3a9a8b224">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
     <Library_Version>1.7.7.7</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.2</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -268,7 +268,7 @@
         <Path>..\lvsrc\KH Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>906928786389E15E51626272336553FE</GUID>
+      <GUID>FA0D2D409084F650F23FD867E8E1F2EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -387,7 +387,7 @@
         <Path>..\lvsrc\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD7C441749AAD9E0A0F704049057B699</GUID>
+      <GUID>CCEC7574B60BC87C8BA18B7DD70F428A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -436,7 +436,7 @@
         <Path>..\lvsrc\Overrides\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16A5252D31428EDB7FD3C3280FBB8095</GUID>
+      <GUID>C96EF0E3326FAB8B3E9A332AD3EB21D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +611,7 @@
         <Path>..\lvsrc\Private\KH7008 COM Error Checker.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62C80559FD70F174AEA2BAD6A826548F</GUID>
+      <GUID>674604A6874B9E2471BE737232DFE17C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +646,7 @@
         <Path>..\lvsrc\Tests\Test SR configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E462F7C9311E3AAAA61041AB40BC9C90</GUID>
+      <GUID>C7E79889A689D2095BFFEB89EDF29BED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
