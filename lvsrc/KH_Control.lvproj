@@ -17,9 +17,7 @@
 			<Item Name="Krohn Hite 7008.vipb" Type="Document" URL="../../build support/Krohn Hite 7008.vipb"/>
 			<Item Name="Krohn Hite 7008.vipc" Type="Document" URL="../../build support/Krohn Hite 7008.vipc"/>
 		</Item>
-		<Item Name="D2XX.lvlib" Type="Library" URL="../D2XX/D2XX_Functions_7.0/D2XX.lvlib"/>
 		<Item Name="Instrument.KH7008.lvclass" Type="LVClass" URL="../Instrument.KH7008.lvclass"/>
-		<Item Name="D2XX-lv.lvlib" Type="Library" URL="../D2XX/D2XX-lv.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
@@ -619,9 +617,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
