@@ -1,4 +1,4 @@
-*.gitignore binary
-*.lvclass binary
 *.lvproj binary
+*.lvclass binary
 *.vipb binary
+*.vipc binary
