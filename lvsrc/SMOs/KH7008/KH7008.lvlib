@@ -11,12 +11,12 @@
 
 </Property>
 	<Item Name="typedefs" Type="Folder">
-		<Item Name="Channel--Enum.ctl" Type="VI" URL="../typedefs/Channel--Enum.ctl"/>
-		<Item Name="Coupling--Enum.ctl" Type="VI" URL="../typedefs/Coupling--Enum.ctl"/>
-		<Item Name="Filter--Enum.ctl" Type="VI" URL="../typedefs/Filter--Enum.ctl"/>
-		<Item Name="Gain--Enum.ctl" Type="VI" URL="../typedefs/Gain--Enum.ctl"/>
-		<Item Name="Input--Enum.ctl" Type="VI" URL="../typedefs/Input--Enum.ctl"/>
-		<Item Name="Shunt--Enum.ctl" Type="VI" URL="../typedefs/Shunt--Enum.ctl"/>
+		<Item Name="channel--Enum.ctl" Type="VI" URL="../typedefs/channel--Enum.ctl"/>
+		<Item Name="couple--Enum.ctl" Type="VI" URL="../typedefs/couple--Enum.ctl"/>
+		<Item Name="filter--Enum.ctl" Type="VI" URL="../typedefs/filter--Enum.ctl"/>
+		<Item Name="gain--Enum.ctl" Type="VI" URL="../typedefs/gain--Enum.ctl"/>
+		<Item Name="input--Enum.ctl" Type="VI" URL="../typedefs/input--Enum.ctl"/>
+		<Item Name="shunt--Enum.ctl" Type="VI" URL="../typedefs/shunt--Enum.ctl"/>
 		<Item Name="channelProperties--Cluster.ctl" Type="VI" URL="../typedefs/channelProperties--Cluster.ctl"/>
 		<Item Name="allChannelProperties--Array.ctl" Type="VI" URL="../typedefs/allChannelProperties--Array.ctl"/>
 	</Item>
@@ -25,11 +25,11 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Open.vi" Type="VI" URL="../API/Open.vi"/>
 		<Item Name="Close.vi" Type="VI" URL="../API/Close.vi"/>
-		<Item Name="Get All Channel Gains.vi" Type="VI" URL="../API/Get All Channel Gains.vi"/>
-		<Item Name="Get All Channels.vi" Type="VI" URL="../API/Get All Channels.vi"/>
 		<Item Name="Get Channel.vi" Type="VI" URL="../API/Get Channel.vi"/>
-		<Item Name="Set All Channels.vi" Type="VI" URL="../API/Set All Channels.vi"/>
+		<Item Name="Get All Channels.vi" Type="VI" URL="../API/Get All Channels.vi"/>
+		<Item Name="Get All Channel Gains.vi" Type="VI" URL="../API/Get All Channel Gains.vi"/>
 		<Item Name="Set Channel.vi" Type="VI" URL="../API/Set Channel.vi"/>
+		<Item Name="Set All Channels.vi" Type="VI" URL="../API/Set All Channels.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
