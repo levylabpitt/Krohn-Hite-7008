@@ -2,9 +2,9 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "",
     "description": "",
-    "$ref": "#/$defs/Database",
+    "$ref": "#/$defs/allChannelProperties",
     "$defs": {
-        "channelPropertiesSch": {
+        "channelProperties": {
         "type": "object",
             "properties": {
                 "channel": {
@@ -24,9 +24,10 @@
                     "enum": ["OFF", "SE+", "SE-", "DIFF"]
                 },
                 "shunt": {
-                    "description": "shunt resistance; not all values are supported on all amplifiers",
+                    "description": "shunt resistance in ohms; not all values are supported on all amplifiers",
                     "type": "string",
-                    "enum": ["OPEN", "50", "500", "5000", "50000", "10000000"]
+                    "enum": ["OPEN", "50", "500", "5000", "50000", "10000000"],
+                    "units":"ohms",
                 },
                 "couple": {
                     "description": "AC/DC input coupling",
@@ -40,9 +41,17 @@
                 }
             },
             "required": ["channel", "gain", "input", "shunt", "couple", "filter"]
+        },
+        "allChannelProperties":{
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/channelProperties"
+                },
+            "minItems": 1,
+            "maxItems": 8
         }
     },
-    "setChannelRequestSch": {
+    "setChannelRequest": {
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -54,7 +63,7 @@
                 "enum": ["setChannel"]
             },
             "params": {
-                "$ref": "#/$defs/channelPropertiesSch"
+                "$ref": "#/$defs/channelProperties"
             },
             "id": {
                 "type": "string"
@@ -62,7 +71,7 @@
         },
         "required": ["jsonrpc","method","params","id"]
     },
-    "setAllChannelsSch":{
+    "setAllChannels":{
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -76,7 +85,7 @@
             "params": {
                 "type": "array",
                 "items": {
-                    "$ref": "#/$defs/channelPropertiesSch"
+                    "$ref": "#/$defs/channelProperties"
                     },
                 "minItems": 1,
                 "maxItems": 8
@@ -87,7 +96,7 @@
             },
         "required": ["jsonrpc", "method", "params", "id"]
     },
-    "getChannelRequestSch":{
+    "getChannelRequest":{
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -102,7 +111,7 @@
                 "type": "object",
                 "properties": {
                 "channel": {
-                    "$ref": "#/$defs/channelPropertiesSch/properties/channel"
+                    "$ref": "#/$defs/channelProperties/properties/channel"
                 }
                 },
                 "required": ["channel"]
@@ -113,7 +122,7 @@
         },
         "required": ["jsonrpc", "method", "params", "id"]
     },
-    "getChannelResponseSch":{
+    "getChannelResponse":{
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -121,7 +130,7 @@
                 "enum": ["2.0"]
             },
             "result": {
-                "$ref": "#/$defs/channelPropertiesSch"
+                "$ref": "#/$defs/channelProperties"
             },
             "id": {
                 "type": "string"
@@ -129,7 +138,7 @@
         },
         "required": ["jsonrpc", "result", "id"]
     },
-    "getAllChannelsRequestSch":{
+    "getAllChannelsRequest":{
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -146,7 +155,7 @@
         },
         "required": ["jsonrpc","method","id"]
     },
-    "getAllChannelsResponseSch":{
+    "getAllChannelsResponse":{
         "type": "object",
         "properties": {
             "jsonrpc": {
@@ -154,25 +163,12 @@
                 "enum": ["2.0"]
             },
             "result": {
-                "type": "array",
-                "items": {
-                    "$ref": "#/$defs/channelPropertiesSch"
-                },
-                "minItems": 1,
-                "maxItems": 8
+                    "$ref": "#/$defs/allChannelProperties"
             },
             "id": {
                 "type": "string"
             },
         "required": ["jsonrpc","result","id"]
         }
-    },
-    "databaseSch": {
-        "type": "array",
-        "items": {
-            "$ref": "#/$defs/channelPropertiesSch"
-            },
-        "minItems": 1,
-        "maxItems": 8
     }
 }
