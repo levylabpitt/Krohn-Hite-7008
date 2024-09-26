@@ -1,0 +1,178 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "",
+    "description": "",
+    "$ref": "#/$defs/Database",
+    "$defs": {
+        "channelPropertiesSch": {
+        "type": "object",
+            "properties": {
+                "channel": {
+                "description": "channel number counting from '1'",
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8
+                },
+                "gain": {
+                "description": "amplifier gain",
+                "type": "integer",
+                "enum": [1, 10, 100, 1000]
+                },
+                "input": {
+                "description": "input configuration. If an input is 'off' or not activated it is grounded",
+                "type": "string",
+                "enum": ["OFF", "SE+", "SE-", "DIFF"]
+                },
+                "shunt": {
+                "description": "shunt resistance; not all values are supported on all amplifiers",
+                "type": "string",
+                "enum": ["OPEN", "50", "500", "5000", "50000", "10000000"]
+                },
+                "couple": {
+                "description": "AC/DC input coupling",
+                "type": "string",
+                "enum": ["AC", "DC"]
+                },
+                "filter": {
+                "description": "low-pass bandwidth limiting filter",
+                "type": "string",
+                "enum": ["OFF", "ON"]
+                }
+            },
+            "required": ["channel", "gain", "input", "shunt", "couple", "filter"]
+        }
+    },
+    "setChannelRequestSch": {
+        "type": "object",
+        "properties": {
+            "jsonrpc": {
+                "type": "string",
+                "enum": ["2.0"]
+            },
+            "method": {
+                "type": "string",
+                "enum": ["setChannel"]
+            },
+            "params": {
+                "$ref": "#/$defs/channelPropertiesSch"
+            },
+            "id": {
+                "type": "string"
+            }
+        },
+        "required": ["jsonrpc","method","params","id"]
+    },
+    "setAllChannelsSch":{
+        "type": "object",
+        "properties": {
+        "jsonrpc": {
+            "type": "string",
+            "enum": ["2.0"]
+        },
+        "method": {
+            "type": "string",
+            "enum": ["setAllChannels"]
+        },
+        "params": {
+            "type": "array",
+            "items": {
+            "$ref": "#/$defs/channelPropertiesSch"
+            },
+            "minItems": 1,
+            "maxItems": 8
+        },
+        "id": {
+            "type": "string"
+        }
+        },
+        "required": ["jsonrpc", "method", "params", "id"]
+    },
+    "getChannelRequestSch":{
+        "type": "object",
+        "properties": {
+        "jsonrpc": {
+            "type": "string",
+            "enum": ["2.0"]
+        },
+        "method": {
+            "type": "string",
+            "enum": ["getChannel"]
+        },
+        "params": {
+            "type": "object",
+            "properties": {
+            "channel": {
+                "$ref": "#/$defs/channelPropertiesSch/properties/channel"
+            }
+            },
+            "required": ["channel"]
+        },
+        "id": {
+            "type": "string"
+        }
+        },
+        "required": ["jsonrpc", "method", "params", "id"]
+    },
+    "getChannelResponseSch":{
+        "type": "object",
+        "properties": {
+        "jsonrpc": {
+            "type": "string",
+            "enum": ["2.0"]
+        },
+        "result": {
+            "$ref": "#/$defs/channelPropertiesSch"
+        },
+        "id": {
+            "type": "string"
+        }
+        },
+        "required": ["jsonrpc", "result", "id"]
+    },
+    "getAllChannelsRequestSch":{
+        "type": "object",
+        "properties": {
+            "jsonrpc": {
+                "type": "string",
+                "enum": ["2.0"]
+            },
+            "method": {
+                "type": "string",
+                "enum": ["getAllChannels"]
+            },
+            "id": {
+                "type": "string"
+            }
+        },
+        "required": ["jsonrpc","method","id"]
+    },
+    "getAllChannelsResponseSch":{
+        "type": "object",
+        "properties": {
+            "jsonrpc": {
+                "type": "string",
+                "enum": ["2.0"]
+            },
+            "result": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/$defs/channelPropertiesSch"
+                },
+                "minItems": 1,
+                "maxItems": 8
+            },
+            "id": {
+                "type": "string"
+            },
+        "required": ["jsonrpc","result","id"]
+        }
+    },
+    "databaseSch": {
+        "type": "array",
+        "items": {
+        "$ref": "#/$defs/channelPropertiesSch"
+        },
+        "minItems": 1,
+        "maxItems": 8
+    }
+}
