@@ -11,12 +11,12 @@
 
 </Property>
 	<Item Name="typedefs" Type="Folder">
-		<Item Name="channel--ring.ctl" Type="VI" URL="../typedefs/channel--ring.ctl"/>
-		<Item Name="couple--Enum.ctl" Type="VI" URL="../typedefs/couple--Enum.ctl"/>
-		<Item Name="filter--Enum.ctl" Type="VI" URL="../typedefs/filter--Enum.ctl"/>
-		<Item Name="gain--ring.ctl" Type="VI" URL="../typedefs/gain--ring.ctl"/>
-		<Item Name="input--Enum.ctl" Type="VI" URL="../typedefs/input--Enum.ctl"/>
-		<Item Name="shunt--ring.ctl" Type="VI" URL="../typedefs/shunt--ring.ctl"/>
+		<Item Name="channel--enum.ctl" Type="VI" URL="../typedefs/channel--enum.ctl"/>
+		<Item Name="couple--enum.ctl" Type="VI" URL="../typedefs/couple--enum.ctl"/>
+		<Item Name="filter--enum.ctl" Type="VI" URL="../typedefs/filter--enum.ctl"/>
+		<Item Name="gain--enum.ctl" Type="VI" URL="../typedefs/gain--enum.ctl"/>
+		<Item Name="input--enum.ctl" Type="VI" URL="../typedefs/input--enum.ctl"/>
+		<Item Name="shunt--enum.ctl" Type="VI" URL="../typedefs/shunt--enum.ctl"/>
 		<Item Name="channelProperties--Cluster.ctl" Type="VI" URL="../typedefs/channelProperties--Cluster.ctl"/>
 		<Item Name="allChannelProperties--Array.ctl" Type="VI" URL="../typedefs/allChannelProperties--Array.ctl"/>
 	</Item>
