@@ -11,12 +11,12 @@
 
 </Property>
 	<Item Name="typedefs" Type="Folder">
-		<Item Name="channel--Enum.ctl" Type="VI" URL="../typedefs/channel--Enum.ctl"/>
+		<Item Name="channel--ring.ctl" Type="VI" URL="../typedefs/channel--ring.ctl"/>
 		<Item Name="couple--Enum.ctl" Type="VI" URL="../typedefs/couple--Enum.ctl"/>
 		<Item Name="filter--Enum.ctl" Type="VI" URL="../typedefs/filter--Enum.ctl"/>
-		<Item Name="gain--Enum.ctl" Type="VI" URL="../typedefs/gain--Enum.ctl"/>
+		<Item Name="gain--ring.ctl" Type="VI" URL="../typedefs/gain--ring.ctl"/>
 		<Item Name="input--Enum.ctl" Type="VI" URL="../typedefs/input--Enum.ctl"/>
-		<Item Name="shunt--Enum.ctl" Type="VI" URL="../typedefs/shunt--Enum.ctl"/>
+		<Item Name="shunt--ring.ctl" Type="VI" URL="../typedefs/shunt--ring.ctl"/>
 		<Item Name="channelProperties--Cluster.ctl" Type="VI" URL="../typedefs/channelProperties--Cluster.ctl"/>
 		<Item Name="allChannelProperties--Array.ctl" Type="VI" URL="../typedefs/allChannelProperties--Array.ctl"/>
 	</Item>
