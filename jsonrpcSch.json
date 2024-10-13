@@ -25,7 +25,7 @@
                 },
                 "shunt": {
                     "description": "shunt resistance in ohms (0 = none/open); not all values are supported on all amplifiers",
-                    "type": integer,
+                    "type": "integer",
                     "enum": [0, 50, 500, 5000, 50000, 10000000],
                     "units":"ohms",
                 },
