@@ -12,10 +12,10 @@
 </Property>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="channel--enum.ctl" Type="VI" URL="../typedefs/channel--enum.ctl"/>
-		<Item Name="couple--enum.ctl" Type="VI" URL="../typedefs/couple--enum.ctl"/>
-		<Item Name="filter--enum.ctl" Type="VI" URL="../typedefs/filter--enum.ctl"/>
+		<Item Name="couple--Enum.ctl" Type="VI" URL="../typedefs/couple--Enum.ctl"/>
+		<Item Name="Filter--Enum.ctl" Type="VI" URL="../typedefs/Filter--Enum.ctl"/>
 		<Item Name="gain--enum.ctl" Type="VI" URL="../typedefs/gain--enum.ctl"/>
-		<Item Name="input--enum.ctl" Type="VI" URL="../typedefs/input--enum.ctl"/>
+		<Item Name="Input--Enum.ctl" Type="VI" URL="../typedefs/Input--Enum.ctl"/>
 		<Item Name="shunt--enum.ctl" Type="VI" URL="../typedefs/shunt--enum.ctl"/>
 		<Item Name="channelProperties--Cluster.ctl" Type="VI" URL="../typedefs/channelProperties--Cluster.ctl"/>
 		<Item Name="allChannelProperties--Array.ctl" Type="VI" URL="../typedefs/allChannelProperties--Array.ctl"/>
@@ -24,6 +24,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Open.vi" Type="VI" URL="../API/Open.vi"/>
+		<Item Name="Get Installed SR Type.vi" Type="VI" URL="../private/Get Installed SR Type.vi"/>
 		<Item Name="Close.vi" Type="VI" URL="../API/Close.vi"/>
 		<Item Name="Get Channel.vi" Type="VI" URL="../API/Get Channel.vi"/>
 		<Item Name="Get All Channels.vi" Type="VI" URL="../API/Get All Channels.vi"/>
