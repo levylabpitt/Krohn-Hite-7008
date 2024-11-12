@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2024-11-11 19:10:08" Creator="Patrick Irvin" Comments="" ID="77ee8026656775e28093aa3f907137bb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2024-11-12 11:40:46" Creator="Patrick Irvin" Comments="" ID="1eb9e23354dded30cbc80e6fcfdbe434">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.0.0.7</Library_Version>
+    <Library_Version>2.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -359,7 +359,7 @@
         <Path>..\lvsrc\SMOs\KH7008</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D65D42D28BDC121BBD9FD3442ECA4C3</GUID>
+      <GUID>999BA7A475D4636CE02F787250395D7F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +492,7 @@
         <Path>..\lvsrc\SMOs\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37591EA9825C97324988D3F2FF094111</GUID>
+      <GUID>AD6AE1D2643DB8703B7D196FA5BE1EED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
