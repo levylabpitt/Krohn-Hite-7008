@@ -11,7 +11,7 @@
 
 </Property>
 	<Item Name="typedefs" Type="Folder">
-		<Item Name="channel--enum.ctl" Type="VI" URL="../typedefs/channel--enum.ctl"/>
+		<Item Name="channel--numeric.ctl" Type="VI" URL="../typedefs/channel--numeric.ctl"/>
 		<Item Name="couple--Enum.ctl" Type="VI" URL="../typedefs/couple--Enum.ctl"/>
 		<Item Name="Filter--Enum.ctl" Type="VI" URL="../typedefs/Filter--Enum.ctl"/>
 		<Item Name="gain--enum.ctl" Type="VI" URL="../typedefs/gain--enum.ctl"/>
