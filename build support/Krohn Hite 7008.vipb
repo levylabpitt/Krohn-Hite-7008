@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2024-11-12 13:47:18" Creator="Patrick Irvin" Comments="" ID="b9a49993e53ee0631fb9dd26cf7968a8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2024-11-13 11:05:35" Creator="Patrick Irvin" Comments="" ID="21a19c2eb6800f78bbe12b1d9619b4ab">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.0.0.9</Library_Version>
+    <Library_Version>2.0.1.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -96,7 +96,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>first release with Krohn-Hite UI inheriting from Instrument Framework</Release_Notes>
+      <Release_Notes>fix simulated channels in monitor and control application</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -359,7 +359,7 @@
         <Path>..\lvsrc\SMOs\KH7008</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E61EA8EF9053A04072F0640558B59DB</GUID>
+      <GUID>C691C144A39A53F7B573D277DA3923ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +492,7 @@
         <Path>..\lvsrc\SMOs\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27C53421C6BA568C42156B38022880EB</GUID>
+      <GUID>B5F46C86FFA49DE47E185E49C1337CF6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
