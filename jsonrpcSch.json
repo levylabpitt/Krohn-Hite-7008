@@ -56,7 +56,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "method": {
                 "type": "string",
@@ -76,7 +76,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "method": {
                 "type": "string",
@@ -101,7 +101,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "method": {
                 "type": "string",
@@ -127,7 +127,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "result": {
                 "$ref": "#/$defs/channelProperties"
@@ -143,7 +143,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "method": {
                 "type": "string",
@@ -160,7 +160,7 @@
         "properties": {
             "jsonrpc": {
                 "type": "string",
-                "enum": ["2.0"]
+                "const": "2.0"
             },
             "result": {
                     "$ref": "#/$defs/allChannelProperties"
