@@ -1477,7 +1477,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/icon 64.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B35D460E-CBFB-4DE7-87B2-FDA6052AC741}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F4517F5-6730-408F-896B-0AEADC6DCEEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.KH7008.lvlib/Inst.Krohn-Hite-7008.lvclass/Inst.Krohn-Hite-7008.AppLauncher.vi</Property>
