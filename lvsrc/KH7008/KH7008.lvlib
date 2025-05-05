@@ -41,7 +41,4 @@
 		<Item Name="Enum to Gain.vi" Type="VI" URL="../private/Enum to Gain.vi"/>
 		<Item Name="Parse Response String.vi" Type="VI" URL="../private/Parse Response String.vi"/>
 	</Item>
-	<Item Name="tests" Type="Folder">
-		<Item Name="test string.vi" Type="VI" URL="../tests/test string.vi"/>
-	</Item>
 </Library>
