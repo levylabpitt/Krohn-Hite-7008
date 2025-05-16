@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-05-16 15:24:05" Creator="Patrick Irvin" Comments="" ID="bc9e1e82f9892d93147d9a344445d980">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-05-16 15:36:18" Creator="Patrick Irvin" Comments="" ID="5cdaf831108bd830380ece41d7059851">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.2.2.16</Library_Version>
+    <Library_Version>2.2.2.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -356,7 +356,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Ins.KH7008.setAllChannels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>993DCA71C68614077EBF16A70675A23B</GUID>
+      <GUID>9411EBCE6C296115F64887563767768D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +489,7 @@
         <Path>..\lvsrc\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44381E770D605E121279D204628B9154</GUID>
+      <GUID>161CA2BA751F90EC3183E36832BC4CA3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
