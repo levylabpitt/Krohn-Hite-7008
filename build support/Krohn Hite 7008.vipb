@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 08:48:21" Creator="Patrick Irvin" Comments="" ID="0f3fa2a06b834760cd6968fd29d8b80d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 13:07:24" Creator="Patrick Irvin" Comments="" ID="0a39c56325f6a17193fa8e4a9b4409a0">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
     <Library_Version>2.3.0.19</Library_Version>
@@ -370,7 +370,21 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ABCE92EAAE7BD01B61EE2497AB4E01D2</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Inst.KH7008.getShuntResistor.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getShuntResistor.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>3DD8FD1AD48B27B4D26F323D23321230</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -503,7 +517,7 @@
         <Path>..\lvsrc\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7F0E3D5C77E770107C2E8D822767D4C</GUID>
+      <GUID>4930696C9CFDE2EFF6A13E76DCA84418</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
