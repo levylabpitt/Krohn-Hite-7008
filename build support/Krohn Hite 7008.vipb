@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 08:01:06" Creator="Patrick Irvin" Comments="" ID="18de522d849544f8f5ad45731b3f0612">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 08:04:56" Creator="Patrick Irvin" Comments="" ID="8e572505a6cb4566ea8d9ce43d2383a8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
     <Library_Version>2.3.0.18</Library_Version>
@@ -37,7 +37,7 @@
       <URL/>
       <Release_Notes>[2.3.0]
 #14 Support for multiple KH7008 connected to a single host computer
-</Release_Notes>
+#27 API method to get installed shunt resistor set</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -370,7 +370,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E67CE570AC4A6973E5B74B76154A9F50</GUID>
+      <GUID>83F01CA43D59D3F41B84D837D2979504</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -503,7 +503,7 @@
         <Path>..\lvsrc\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18FC6F806D8DF34BF9EF5C6AFA31D728</GUID>
+      <GUID>2C055A0BF2FA350920FA4BBC4C7DF8E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
