@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-05-16 15:51:04" Creator="Patrick Irvin" Comments="" ID="e0b88dc25d8482e6e95e82cd8e8b0cce">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 08:48:21" Creator="Patrick Irvin" Comments="" ID="0f3fa2a06b834760cd6968fd29d8b80d">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.2.2.18</Library_Version>
+    <Library_Version>2.3.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>levylab_lib_d2xx_lv &gt;=1.2.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.1.2.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.1.3.10</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -35,9 +35,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.2.2]
-- #24 Add D2XX-LV package dependency
-- #25 Fix issues with getAllChannels and setAllChannels</Release_Notes>
+      <Release_Notes>[2.3.0]
+#14 Support for multiple KH7008 connected to a single host computer
+#27 API method to get installed shunt resistor set</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -345,7 +345,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Ins.KH7008.setAllChannels.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Inst.KH7008.setAllChannels.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -353,10 +353,24 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Ins.KH7008.setAllChannels.vi</Path>
+        <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.setAllChannels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E124E86FEA47BADC412A2223AA32AA94</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Inst.KH7008.Open.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.Open.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>ABCE92EAAE7BD01B61EE2497AB4E01D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +503,7 @@
         <Path>..\lvsrc\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BC6D83C49EB461242334E3D7FCB0556</GUID>
+      <GUID>B7F0E3D5C77E770107C2E8D822767D4C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
