@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 13:07:24" Creator="Patrick Irvin" Comments="" ID="0a39c56325f6a17193fa8e4a9b4409a0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-06 13:13:08" Creator="Patrick Irvin" Comments="" ID="43bfd648841a1cec53db56ee53c9125c">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.3.0.19</Library_Version>
+    <Library_Version>2.3.1.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,9 +35,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.3.0]
-#14 Support for multiple KH7008 connected to a single host computer
-#27 API method to get installed shunt resistor set</Release_Notes>
+      <Release_Notes>[2.3.1]
+#28 getShuntResistor missing from palette
+#29 fix chassis enumeration reverting to default value</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -384,7 +384,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getShuntResistor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DD8FD1AD48B27B4D26F323D23321230</GUID>
+      <GUID>2D3890236429B3416F3C01B8460A33FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -517,7 +517,7 @@
         <Path>..\lvsrc\KH7008\private\Get Installed SR Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4930696C9CFDE2EFF6A13E76DCA84418</GUID>
+      <GUID>30EA697755E6E8CF0CAC4C6C9DBDE91F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
