@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-13 17:00:22" Creator="Patrick Irvin" Comments="" ID="8f922b499e57da3b70fad1ab519cb90a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-25 13:11:13" Creator="Patrick Irvin" Comments="" ID="19670262dc1ee96a0a2800fea45d8f47">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.3.2.22</Library_Version>
+    <Library_Version>2.4.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,8 +35,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.3.2]
-#30 add getChassis API that returns the number of installed chassis</Release_Notes>
+      <Release_Notes>[2.4.0]
+- Ensure UI uses only "local" communication
+- Updated ZMQ backend</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -397,7 +398,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2FB9F970BFDDCCD17A7F16894D523AF</GUID>
+      <GUID>C4EEEC2830FFDFB4DC07A078CD64EC51</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +531,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E45972B082749621327CAD82293C562F</GUID>
+      <GUID>20E78BCFD04648660A22313D59708495</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
