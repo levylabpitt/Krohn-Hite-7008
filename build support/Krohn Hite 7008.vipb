@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-07-18 13:12:40" Creator="Patrick Irvin" Comments="" ID="19f7b29ee34c083b44788e91463276b8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-07-18 13:30:59" Creator="Patrick Irvin" Comments="" ID="4e6657dc8c46c430ff582f8d67a6a1f7">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.4.1.23</Library_Version>
+    <Library_Version>2.4.1.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -397,7 +397,7 @@ Issue #5: Fix simulation mode</Release_Notes>
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01A1F8906619AF1E6896D97275A47F25</GUID>
+      <GUID>504C5FCC86B0101704617E314762B735</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +530,7 @@ Issue #5: Fix simulation mode</Release_Notes>
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B76051F2978764C04ACEB8B200662696</GUID>
+      <GUID>95E2CE211E847E33A75FDD8462D7A3CB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
