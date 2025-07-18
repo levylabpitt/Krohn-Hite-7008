@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-06-25 13:11:13" Creator="Patrick Irvin" Comments="" ID="19670262dc1ee96a0a2800fea45d8f47">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-07-18 13:12:40" Creator="Patrick Irvin" Comments="" ID="19f7b29ee34c083b44788e91463276b8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.4.0.23</Library_Version>
+    <Library_Version>2.4.1.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_d2xx_lv &gt;=1.2.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_d2xx_lv &gt;=1.3.0.8</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.1.3.10</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -35,9 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.4.0]
-- Ensure UI uses only "local" communication
-- Updated ZMQ backend</Release_Notes>
+      <Release_Notes>[2.4.1]
+Issue #5: Fix simulation mode</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -398,7 +397,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4EEEC2830FFDFB4DC07A078CD64EC51</GUID>
+      <GUID>01A1F8906619AF1E6896D97275A47F25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +530,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20E78BCFD04648660A22313D59708495</GUID>
+      <GUID>B76051F2978764C04ACEB8B200662696</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
