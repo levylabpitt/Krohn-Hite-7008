@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-09-22 12:51:55" Creator="Patrick Irvin" Comments="" ID="c5853ba6622d1bc14a21decd00c03767">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-09-22 13:10:22" Creator="Patrick Irvin" Comments="" ID="81112668ff032273e2c961bd77e0ae4e">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.4.2.24</Library_Version>
+    <Library_Version>2.4.2.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -398,7 +398,7 @@ build with latest Instrument Framework stack (1.15.9)</Release_Notes>
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02027685632250971EE708E50CF832D6</GUID>
+      <GUID>9B93CEF1211D487F203ADF41300DB7E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +531,7 @@ build with latest Instrument Framework stack (1.15.9)</Release_Notes>
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A103931DD07F1805E825FFDF961B621</GUID>
+      <GUID>D48F9B8D16D33ACC017ACC79C018BA19</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
