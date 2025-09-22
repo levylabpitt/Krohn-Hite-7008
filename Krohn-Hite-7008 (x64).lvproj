@@ -786,7 +786,6 @@
 				<Item Name="isLeapYear (timestamp).vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/isLeapYear (timestamp).vi"/>
 				<Item Name="ISO Day -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO Day -- enum.ctl"/>
 				<Item Name="ISO8601 Date Formats.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 Date Formats.ctl"/>
-				<Item Name="ISO8601 DateString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 DateString to Timestamp.vi"/>
 				<Item Name="ISO8601 String to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 String to Timestamp.vi"/>
 				<Item Name="ISO8601 TimeString to Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/ISO8601 TimeString to Timestamp.vi"/>
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
@@ -1287,10 +1286,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{049C5DB6-2C86-4BE9-AE16-62CCB7271414}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">KH7008.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application (x64)/KH7008.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -1389,7 +1388,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{15B5DEAB-CB16-4363-B6A3-3DD841C9D12F}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Krohn-Hite-7008 (x64)</Property>
-				<Property Name="INST_productVersion" Type="Str">2.4.1</Property>
+				<Property Name="INST_productVersion" Type="Str">2.4.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
