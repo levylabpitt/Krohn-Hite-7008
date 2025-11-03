@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-09-22 13:10:22" Creator="Patrick Irvin" Comments="" ID="81112668ff032273e2c961bd77e0ae4e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2025-11-03 17:47:47" Creator="Patrick Irvin" Comments="" ID="29c1d10f02becbe0e02f31a207940bd6">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.4.2.25</Library_Version>
+    <Library_Version>2.4.3.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,8 +36,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.4.2]
-build with latest Instrument Framework stack (1.15.9)</Release_Notes>
+      <Release_Notes>[2.4.3]
+- build with pgsql/3.10.2.11</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -398,7 +398,7 @@ build with latest Instrument Framework stack (1.15.9)</Release_Notes>
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B93CEF1211D487F203ADF41300DB7E4</GUID>
+      <GUID>30B30BBE92764CE9993793E13F9E53D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +531,7 @@ build with latest Instrument Framework stack (1.15.9)</Release_Notes>
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D48F9B8D16D33ACC017ACC79C018BA19</GUID>
+      <GUID>FB5A3A1079B50DF574B818C0BE92BB85</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
