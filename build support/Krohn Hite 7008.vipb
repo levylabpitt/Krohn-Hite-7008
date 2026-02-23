@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-02-06 22:55:38" Creator="Patrick Irvin" Comments="" ID="89a0cd7880f6797bd72e9347fba6e482">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-02-23 14:45:23" Creator="Patrick Irvin" Comments="" ID="94ba972cd1a9cb684c9f151669bf098c">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.5.1.29</Library_Version>
+    <Library_Version>2.6.0.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,8 +36,13 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.5.1]
-- build with pgsql/3.12.1.15 (hotfix for connection key)</Release_Notes>
+      <Release_Notes>[2.6.0]
+#34:
+- Switch to termination-character-driven reads instead of polling bytes at port
+- Flush i/o buffer before each write
+- fix error handling to set -999 errors error?==T flag (previously error -999 would be reported but error?==F)
+- add User Data to track initialized conection, and number of available channels in the chassis
+- change startup sequence to better handle existing visa connections: ask user to close them or switch to simulated KH7008</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -398,7 +403,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89CB502AF0FBB0253FFCE5518D58F104</GUID>
+      <GUID>FB5A850BBEEF80963C4C734843646E4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +536,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7A6DE9AEBF8D314043866649A45D4BC3</GUID>
+      <GUID>6463AB2C86E61FDD75D88F77CA1C4EE9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
