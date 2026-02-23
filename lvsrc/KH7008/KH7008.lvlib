@@ -40,5 +40,8 @@
 		<Item Name="Enum Shunt to Gain.vi" Type="VI" URL="../private/Enum Shunt to Gain.vi"/>
 		<Item Name="Enum to Gain.vi" Type="VI" URL="../private/Enum to Gain.vi"/>
 		<Item Name="Parse Response String.vi" Type="VI" URL="../private/Parse Response String.vi"/>
+		<Item Name="Set VISA User Data.vi" Type="VI" URL="../private/Set VISA User Data.vi"/>
+		<Item Name="Get VISA User Data.vi" Type="VI" URL="../private/Get VISA User Data.vi"/>
 	</Item>
+	<Item Name="Validate Connection.vi" Type="VI" URL="../private/Validate Connection.vi"/>
 </Library>
