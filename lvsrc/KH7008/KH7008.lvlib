@@ -34,6 +34,7 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Validate Connection.vi" Type="VI" URL="../private/Validate Connection.vi"/>
 		<Item Name="COM Error Checker.vi" Type="VI" URL="../private/COM Error Checker.vi"/>
 		<Item Name="COM.vi" Type="VI" URL="../private/COM.vi"/>
 		<Item Name="Create Command String.vi" Type="VI" URL="../private/Create Command String.vi"/>
@@ -43,5 +44,4 @@
 		<Item Name="Set VISA User Data.vi" Type="VI" URL="../private/Set VISA User Data.vi"/>
 		<Item Name="Get VISA User Data.vi" Type="VI" URL="../private/Get VISA User Data.vi"/>
 	</Item>
-	<Item Name="Validate Connection.vi" Type="VI" URL="../private/Validate Connection.vi"/>
 </Library>
