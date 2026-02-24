@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-02-23 14:45:23" Creator="Patrick Irvin" Comments="" ID="94ba972cd1a9cb684c9f151669bf098c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-02-23 21:48:22" Creator="Patrick Irvin" Comments="" ID="1d0fdd6db8b84cadb3a82c7290b0a4e0">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.6.0.32</Library_Version>
+    <Library_Version>2.6.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,13 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.6.0]
-#34:
-- Switch to termination-character-driven reads instead of polling bytes at port
-- Flush i/o buffer before each write
-- fix error handling to set -999 errors error?==T flag (previously error -999 would be reported but error?==F)
-- add User Data to track initialized conection, and number of available channels in the chassis
-- change startup sequence to better handle existing visa connections: ask user to close them or switch to simulated KH7008</Release_Notes>
+      <Release_Notes>- build with ZMQ 1.3.4</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -403,7 +397,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB5A850BBEEF80963C4C734843646E4D</GUID>
+      <GUID>FE8533E657449283B523094920726DAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -536,7 +530,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6463AB2C86E61FDD75D88F77CA1C4EE9</GUID>
+      <GUID>943A993E8F6C3B931F1686B7AD77D3D7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
