@@ -1652,9 +1652,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{049C5DB6-2C86-4BE9-AE16-62CCB7271414}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">KH7008.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application (x64)/KH7008.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
