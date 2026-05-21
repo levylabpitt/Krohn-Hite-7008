@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-05-20 18:40:39" Creator="Patrick Irvin" Comments="" ID="1d79b55f5c9199d52f3dd746f1c6c93d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-05-20 20:35:50" Creator="Patrick Irvin" Comments="" ID="626f2241bbdb3dd471a2fe6ab255d288">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.6.3.37</Library_Version>
+    <Library_Version>2.6.3.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>- build with LV-Data-PGSQL/3.12.3.17</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -397,7 +397,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A65BD91F17919F49C05F9B54E768F7D</GUID>
+      <GUID>B83CDB3DF51137ADF2BC00A80C049BAE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +530,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B9CFC5D9E0309CC1651484798825BDB</GUID>
+      <GUID>D738FB138EA6FC29ABB2CB6913F964DB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
