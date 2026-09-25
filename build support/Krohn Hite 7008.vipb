@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-07-08 17:11:43" Creator="Patrick Irvin" Comments="" ID="8e5f9bac879fdae1ada94fd8487425ce">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-09-21 13:19:12" Creator="Patrick Irvin" Comments="" ID="bf6bf1cec1abbb1e98afe7095c4ba74a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.6.4.42</Library_Version>
+    <Library_Version>2.6.5.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -18,8 +18,8 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>levylab_lib_d2xx_lv &gt;=1.4.0.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.2.1.13</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.9.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.2.2.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Add invalidate/validate connection inside COM.vi (econnect on error)</Release_Notes>
+      <Release_Notes>- fix linking to Instrument Framework v1.15.13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -397,7 +397,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F8E0C0CBEB6CA837C3FEFF022DCAC0B</GUID>
+      <GUID>74292DC3703EC84E175F32F508EA2177</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +530,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F091A824F468B77592CBC809DDBCBD4C</GUID>
+      <GUID>6A05D9AA3A9D94AFDFE8D52E5489DE26</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
