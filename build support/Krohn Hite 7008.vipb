@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-09-28 08:44:34" Creator="Patrick Irvin" Comments="" ID="ca914691c37cf390ed130861c391aae2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-04-20 09:58:44" Modified_Date="2026-10-01 16:10:21" Creator="Patrick Irvin" Comments="" ID="d6fc230e079b6b7d63d479fc8105e8b8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Krohn_Hite_7008</Package_File_Name>
-    <Library_Version>2.6.5.43</Library_Version>
+    <Library_Version>2.6.6.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- fix linking to Instrument Framework v1.15.13</Release_Notes>
+      <Release_Notes>- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger's CPU use grew with uptime).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -397,7 +397,7 @@
         <Path>..\lvsrc\Inst.Krohn-Hite-7008\API\Inst.KH7008.getChassis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8D594E85095EA72B7B05FADA980BB6F</GUID>
+      <GUID>96046EC96313AC1D4533E96CF05B46B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +530,7 @@
         <Path>..\lvsrc\KH7008\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5A2ADE03C59870A677403DDEC12F57B</GUID>
+      <GUID>D1EED535EAFE2C2CF5D8A51EC3F7831D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
